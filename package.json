@@ -18,7 +18,7 @@
   "license": "ISC",
   "dependencies": {
     "@babel/polyfill": "^7.2.5",
-    "@vue/component-compiler-utils": "^2.5.1",
+    "@vue/component-compiler-utils": "^2.5.2",
     "bulma": "^0.7.2",
     "compression": "^1.7.3",
     "dotenv": "^6.2.0",
@@ -26,15 +26,15 @@
     "node-sass": "^4.11.0",
     "parcel-bundler": "^1.11.0",
     "sass": "^1.16.1",
-    "vue": "^2.5.22",
-    "vue-template-compiler": "^2.5.22"
+    "vue": "^2.6.0",
+    "vue-template-compiler": "^2.6.0"
   },
   "devDependencies": {
     "cross-env": "^5.2.0",
-    "eslint": "^5.12.1",
+    "eslint": "^5.13.0",
     "eslint-config-prettier": "^4.0.0",
     "eslint-plugin-prettier": "^3.0.1",
-    "prettier": "^1.16.2",
+    "prettier": "^1.16.4",
     "rimraf": "^2.6.3",
     "vue-hot-reload-api": "^2.3.1"
   }
