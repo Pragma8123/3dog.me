@@ -8,6 +8,16 @@
   url('fonts/Overseer.svg') format('svg');
 }
 
+@font-face {
+  font-family: Fixedsys;
+  src: url('fonts/FSEX300.eot');
+  src: url('fonts/FSEX300.eot?#iefix') format('embedded-opentype'),
+  url('fonts/FSEX300.woff2') format('woff2'),
+  url('fonts/FixedsysExcelsiorIIIb.woff') format('woff'),
+  url('fonts/FSEX300.ttf') format('truetype'),
+  url('fonts/FixedsysExcelsiorIIIb.svg') format('svg');
+}
+
 $green: #1aff80; // Fallout 3 UI green
 $family-primary: Overseer;
 
