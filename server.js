@@ -12,7 +12,7 @@ const bundler = new Bundler(join(__dirname, 'index.html'));
 bundler.on('buildEnd', () => {
   // Copy threedog.png for Open Graph metadata
   fs.copyFileSync(
-    join(__dirname, 'src', 'threedog.png'),
+    join(__dirname, 'assets', 'threedog.png'),
     join(__dirname, 'dist', 'threedog.png')
   );
 });
