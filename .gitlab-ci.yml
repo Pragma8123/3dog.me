@@ -3,6 +3,7 @@ image: node:latest
 pages:
   stage: deploy
   script:
+    - npm i
     - npm run build
     - mkdir public
     - mv dist/* public/.
