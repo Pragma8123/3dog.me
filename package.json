@@ -2,35 +2,30 @@
   "name": "3dog.me",
   "version": "0.2.0",
   "description": "Website for Three Dog Bot",
-  "main": "server.js",
+  "main": "index.js",
   "scripts": {
-    "clean": "rimraf dist",
-    "dev": "cross-env NODE_ENV=development node server",
-    "start": "node server",
+    "build": "parcel build --public-url ./ index.html",
+    "dev": "parcel serve index.html",
     "test": "echo \"Write some tests!\""
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:Pragma8123/3dog.me"
+    "url": "https://gitlab.machon.family/Max/3dog-me.git"
   },
   "keywords": [],
   "author": "Max M <pragma8123@gmail.com>",
   "license": "ISC",
   "dependencies": {
     "bulma": "^0.7.4",
-    "compression": "^1.7.3",
     "dotenv": "^6.2.0",
-    "express": "^4.16.4",
-    "node-sass": "^4.11.0",
+    "node-sass": "^4.14.1",
     "parcel-bundler": "^1.11.0",
-    "sass": "^1.17.0"
+    "sass": "^1.26.10"
   },
   "devDependencies": {
-    "cross-env": "^5.2.0",
-    "eslint": "^5.14.0",
-    "eslint-config-prettier": "^4.0.0",
-    "eslint-plugin-prettier": "^3.0.1",
-    "prettier": "^1.16.4",
-    "rimraf": "^2.6.3"
+    "eslint": "^5.16.0",
+    "eslint-config-prettier": "^4.3.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "prettier": "^1.19.1"
   }
 }
