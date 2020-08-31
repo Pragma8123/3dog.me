@@ -7,7 +7,7 @@ pages:
     - npm run build
     - mkdir public
     - mv dist/* public/.
-    - mv *.png public/.
+    - mv assets/*.png public/.
   artifacts:
     paths:
       - public
