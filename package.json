@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "parcel build --public-url ./ index.html",
+    "clean": "rimraf ./dist ./.cache",
     "dev": "parcel serve index.html",
     "test": "echo \"Write some tests!\""
   },
@@ -20,6 +21,7 @@
     "dotenv": "^6.2.0",
     "node-sass": "^4.14.1",
     "parcel-bundler": "^1.11.0",
+    "rimraf": "^3.0.2",
     "sass": "^1.26.10"
   },
   "devDependencies": {
