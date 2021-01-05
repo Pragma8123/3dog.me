@@ -17,17 +17,17 @@
   "author": "Max M <pragma8123@gmail.com>",
   "license": "ISC",
   "dependencies": {
-    "bulma": "^0.7.4",
-    "dotenv": "^6.2.0",
-    "node-sass": "^4.14.1",
-    "parcel-bundler": "^1.11.0",
-    "rimraf": "^3.0.2",
-    "sass": "^1.26.10"
+    "bulma": "^0.7.4"
   },
   "devDependencies": {
+    "dotenv": "^6.2.0",
     "eslint": "^5.16.0",
     "eslint-config-prettier": "^4.3.0",
-    "eslint-plugin-prettier": "^3.1.4",
-    "prettier": "^1.19.1"
+    "eslint-plugin-prettier": "^3.3.1",
+    "node-sass": "^4.14.1",
+    "parcel-bundler": "^1.11.0",
+    "prettier": "^1.19.1",
+    "rimraf": "^3.0.2",
+    "sass": "^1.26.10"
   }
 }
